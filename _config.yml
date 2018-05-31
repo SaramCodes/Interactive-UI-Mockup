@@ -1,0 +1,5 @@
+name: Interactive UI Material Mockup
+description: Just adding random animations and stacking elements on top of eachother.
+
+sass:
+  style: compressed
