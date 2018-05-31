@@ -144,7 +144,6 @@
         width: 100%
         position: absolute
         text-align: center
-        overflow-x: hidden
         .animate-para
             opacity: 0
             position: relative
@@ -184,7 +183,6 @@
         position: absolute
         top: 0%
         z-index: 7
-        overflow-x: hidden
     
     .behind-part
         height: 100vh
@@ -201,7 +199,6 @@
         top: 0%
         z-index: 2
         text-align: center
-        overflow-x: hidden
 
         h2
             margin-top: 70px
@@ -469,7 +466,6 @@
 
 @media screen and (max-width:580px)
     .container
-
         .behind-div
             .animate-para
                 font-size: 15px
@@ -483,10 +479,10 @@
             width: 100%
         
         .left
-            height: 38vh
+            height: 50vh
         
         .right
-            top: 38vh
+            top: 50vh
             height: 70vh
         
         .content
@@ -537,3 +533,14 @@
     .container
         .box
             height: 200vh            
+
+@media screen and (max-height:650px)
+    .container
+        .behind-div
+            .mugshot
+                margin-top: 50px
+                height: 90px
+                width: 90px
+        .behind-box
+            h2
+                margin-top: 30px                
