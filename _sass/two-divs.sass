@@ -187,7 +187,7 @@
         z-index: 7
     
     .behind-part
-        height: 100vh
+        height: 250vh
         width: 100vw
         position: absolute
         background-color: #333
@@ -524,18 +524,37 @@
 
 // VERTICAL QUERY BOI 
 
+@media screen and (max-height:760px)
+    .container
+        .box
+            height: 130vh
+        .behind-box
+            height: 130vh
+        .behind-part
+            height: 130vh    
+    
 
 @media screen and (max-height:540px)
     .container
         .box
             height: 150vh
+        .behind-box
+            height: 120vh    
+        .behind-part
+            height: 120vh    
 
 
 @media screen and (max-height:360px)
     .container
         .box
-            height: 200vh            
+            height: 200vh      
+        .behind-part
+            height: 120vh          
 
+
+
+    
+        
 @media screen and (max-height:650px)
     .container
         .behind-div
@@ -546,6 +565,7 @@
         .behind-box
             h2
                 margin-top: 30px                
+
 
 @media screen and (max-height:320px) and (max-width:580px)
     .container
